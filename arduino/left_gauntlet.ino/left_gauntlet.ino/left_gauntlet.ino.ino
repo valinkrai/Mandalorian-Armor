@@ -1,83 +1,151 @@
-// --------------------------------------
-// i2c_scanner
-//
-// Version 1
-//    This program (or code that looks like it)
-//    can be found in many places.
-//    For example on the Arduino.cc forum.
-//    The original author is not know.
-// Version 2, Juni 2012, Using Arduino 1.0.1
-//     Adapted to be as simple as possible by Arduino.cc user Krodal
-// Version 3, Feb 26  2013
-//    V3 by louarnold
-// Version 4, March 3, 2013, Using Arduino 1.0.3
-//    by Arduino.cc user Krodal.
-//    Changes by louarnold removed.
-//    Scanning addresses changed from 0...127 to 1...119,
-//    according to the i2c scanner by Nick Gammon
-//    https://www.gammon.com.au/forum/?id=10896
-// Version 5, March 28, 2013
-//    As version 4, but address scans now to 127.
-//    A sensor seems to use address 120.
-// Version 6, November 27, 2015.
-//    Added waiting for the Leonardo serial communication.
-//
-//
-// This sketch tests the standard 7-bit addresses
-// Devices with higher bit address might not be seen properly.
-//
- 
-#include <Wire.h>
- 
- 
-void setup()
-{
-  Wire.begin();
- 
+#include SPI.h
+#include Wire.h
+#include Adafruit_GFX.h
+#include Adafruit_SSD1306.h
+#include mandalor10pt7b.h
+#include Aurebesh8pt7b.h
+
+#define SCREEN_WIDTH 128  OLED display width, in pixels
+#define SCREEN_HEIGHT 64  OLED display height, in pixels
+#define FONT_WIDTH 7  OLED display height, in pixels
+
+I2C
+#define OLED_RESET 4
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);;  SDA to Pin A4, SCK to Pin A5
+
+software SPI
+#define OLED_CLK    8       SCL
+#define OLED_MOSI  9        SDA
+#define OLED_RESET 10       RES
+#define OLED_DC    11       DC
+#define OLED_CS    12       CS
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
+
+#define SSD1306_LCDHEIGHT 64
+#if (SSD1306_LCDHEIGHT != 64)
+#error(Height incorrect, please fix Adafruit_SSD1306.h!);
+#endif
+
+void setup()   {                
   Serial.begin(9600);
-  while (!Serial);             // Leonardo: wait for serial monitor
-  Serial.println("\nI2C Scanner");
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+  display.clearDisplay();
+  randomSeed(analogRead(0));
+
+
 }
- 
- 
-void loop()
-{
-  byte error, address;
-  int nDevices;
- 
-  Serial.println("Scanning...");
- 
-  nDevices = 0;
-  for(address = 1; address < 127; address++ )
-  {
-    // The i2c_scanner uses the return value of
-    // the Write.endTransmisstion to see if
-    // a device did acknowledge to the address.
-    Wire.beginTransmission(address);
-    error = Wire.endTransmission();
- 
-    if (error == 0)
-    {
-      Serial.print("I2C device found at address 0x");
-      if (address<16)
-        Serial.print("0");
-      Serial.print(address,HEX);
-      Serial.println("  !");
- 
-      nDevices++;
+
+long readVcc() {
+  long result;
+   Read 1.1V reference against AVcc
+  ADMUX = _BV(REFS0)  _BV(MUX3)  _BV(MUX2)  _BV(MUX1);
+  delay(2);  Wait for Vref to settle
+  ADCSRA = _BV(ADSC);  Convert
+  while (bit_is_set(ADCSRA,ADSC));
+  result = ADCL;
+  result = ADCH8;
+  result = 1126400L  result;  Back-calculate AVcc in mV
+  return result;
+}
+
+
+void loop() {
+    String scroll = birov solus haat mirshe'adate beskar'gam tolase tsikala. ;
+    char buffer[80];
+    int scroll_start_x = SCREEN_WIDTH;
+    int scroll_len= scroll.length(); 
+    int scroll_width=(FONT_WIDTH(scroll_len+1));
+    int scroll_x_pos = scroll_start_x;
+
+     square meters setup
+    int meter_width=8;
+    int meter_y_top=16;
+    int meter_x_start=100;
+    int spacing = 2;
+    int meter_height=SCREEN_HEIGHT-meter_y_top;
+    int meter_val_height=meter_height-4;
+    int val1;
+    int val2;
+    int val3;
+    while(true){
+      display.clearDisplay();
+      int width = 17;
+      display.fillCircle(13, 28, 8, WHITE);
+      display.drawCircle(13, 28, 10, WHITE);
+      display.drawRect(0,16,27,26, WHITE);
+  
+      
+      display.setCursor(scroll_x_pos, 63);
+      display.setTextColor(WHITE);
+      display.setTextSize(1);
+      display.setTextWrap(false);
+      display.setFont(&mandalor10pt7b);
+      display.print(scroll);
+      
+      scroll_x_pos--;
+      if (scroll_x_pos == (scroll_width-1)) {
+        scroll_x_pos = scroll_start_x;
+      }
+       print voltage
+      display.setCursor(0, 12);
+      display.setFont(&Aurebesh8pt7b);
+      display.print(readVcc()1000.0);
+      display.setCursor(44, 12);
+      display.print('v');
+      
+      print idk
+      display.setCursor(65, 12);
+      display.setFont(&Aurebesh8pt7b);
+      display.print(valin);
+      
+      print idk
+      display.setCursor(90, 36);
+      display.setFont(&mandalor10pt7b);
+      display.print(krai);
+
+       square meters
+
+       Meter 1
+      val1 = (int)(analogRead(A0)  50.01023.0);
+      
+      display.drawRect(
+        30,
+        16,
+        54  ,
+        12, 
+        WHITE
+      );
+      display.fillRect(
+        32,
+        18,
+        val1,
+        8, 
+        WHITE
+      );
+      
+   
+       Meter 2
+      val2 = 20 + random(-5,5);
+      
+      
+      display.drawRect(
+        30,
+        16 + 14,
+        54,
+        12, 
+        WHITE
+      );
+
+      display.fillRect(
+        32,
+        32,
+        val2,
+        8, 
+        WHITE
+      );
+     
+      
+      display.display();
+      delay(5);
     }
-    else if (error==4)
-    {
-      Serial.print("Unknown error at address 0x");
-      if (address<16)
-        Serial.print("0");
-      Serial.println(address,HEX);
-    }    
-  }
-  if (nDevices == 0)
-    Serial.println("No I2C devices found\n");
-  else
-    Serial.println("done\n");
- 
-  delay(5000);           // wait 5 seconds for next scan
 }
