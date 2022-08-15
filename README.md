@@ -18,4 +18,4 @@ In most cases this will be either MIT for software or Creative Commons 4.0 Attri
 
 
 # Contact Info
-If you see anything that shouldn't be here, or have any question, please contact me at github@trenton.io
+If you see anything that shouldn't be here, or have any questions, please contact me at github@trenton.io
