@@ -8,5 +8,10 @@ Where possible, I've included links to where I purchased supplies, these are mos
 # Licenses
 Each folder should have a readme with appropriate licenses, if you'd like to use them in a way that doesn't fit that, just contact me.
 
+In most cases this will be:
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+
+
 # Contact Info
 If you see anything that shouldn't be here, or have any question, please contact me at github@trenton.io
