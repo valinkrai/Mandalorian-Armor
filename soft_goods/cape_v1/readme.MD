@@ -5,7 +5,7 @@
 # Angular Mythosaur
 This is purely my own creation, just wanted something simple for stitching purposes.
 
-License:
+# License
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/

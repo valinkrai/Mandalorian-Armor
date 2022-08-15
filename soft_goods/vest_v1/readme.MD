@@ -1,5 +1,7 @@
 # Template Info
 This is a vector template for creating a flake vest. Make sure to add seam allowance! Use the link below to figure out what the measurements are.
+
+# License
 [![CC BY 4.0][cc-by-image]][cc-by]
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
