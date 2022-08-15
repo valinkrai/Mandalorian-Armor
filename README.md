@@ -9,10 +9,7 @@ Where possible, I've included links to where I purchased supplies, these are mos
 Each folder should have a readme with appropriate licenses, if you'd like to use them in a way that doesn't fit that, just contact me.
 
 In most cases this will be under a
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+ 
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
