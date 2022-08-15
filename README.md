@@ -8,8 +8,8 @@ Where possible, I've included links to where I purchased supplies, these are mos
 # Licenses
 Each folder should have a readme with appropriate licenses, if you'd like to use them in a way that doesn't fit that, just contact me.
 
-In most cases this will be:
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+In most cases this will be under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 
 
