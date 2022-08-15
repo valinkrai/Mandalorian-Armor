@@ -26,7 +26,7 @@ In order of barrel placement, from front to back. Each layers wires must be ran 
 - Vibration assembly, the PS2 cibration motor is friction fitted inside this.
 
 ## License:
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 
 # Parts to order:
@@ -43,5 +43,5 @@ In order of barrel placement, from front to back. Each layers wires must be ran 
 # Links
 - [Files for Purchase](https://cults3d.com/en/3d-model/various/dc-15s-side-arm-blaster-star-wars-3d-print-model)
 - [Demo Video](https://www.youtube.com/watch?v=16dF3_q6_8Y)
-- [RPF Thread](https://www.therpf.com/forums/threads/dc-15s-side-arm-blaster-for-republic-commandos.145383/page-2)]
+- [RPF Thread](https://www.therpf.com/forums/threads/dc-15s-side-arm-blaster-for-republic-commandos.145383/page-2)
 - [Original Electronics Layout](https://www.deviantart.com/ligonap/art/Inside-of-the-DC-15S-820771129)
