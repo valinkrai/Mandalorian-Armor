@@ -24,8 +24,8 @@ In order of barrel placement, from front to back. Each layers wires must be ran 
 - LED Assembly
     - To be friction fitted with 10mm LED, then placed at the very end of the barrel.
 - Vibration assembly, the PS2 cibration motor is friction fitted inside this.
-
-
+- Custom Holster
+    - This is just a very simple holster to attack directly to the belt that tightly fits the DC-15s model.
 
 ## Models License:
 [![CC BY 4.0][cc-by-image]][cc-by]
