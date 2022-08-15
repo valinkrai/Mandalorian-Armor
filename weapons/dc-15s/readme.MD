@@ -10,8 +10,8 @@ Rear ammo LEDs
 # Code
 Tracks the amount of shots, and because this was written 3 days before a con, it just resets the arduino when reloading to avoid memory running out. Lots to fix.
 
-## License:
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+## Code License
+The .ino code is provided under the MIT license, available in the root of this repository.
 
 # Included Custom Models
 In order of barrel placement, from front to back. Each layers wires must be ran through the ones behind it.
@@ -25,8 +25,14 @@ In order of barrel placement, from front to back. Each layers wires must be ran 
     - To be friction fitted with 10mm LED, then placed at the very end of the barrel.
 - Vibration assembly, the PS2 cibration motor is friction fitted inside this.
 
-## License:
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+
+## Models License:
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 
 # Parts to order:

@@ -22,5 +22,11 @@ Model is based off of [April Storm's v4 Custom Death Watch Gauntlet](https://www
 # Arduino Code
 This is a more or less custom interface for my left gauntlet that uses button inputs and the like to modify what's on screen.
 
-## License
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+## Models License
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+

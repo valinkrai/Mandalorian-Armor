@@ -10,4 +10,8 @@ These are just to lock down 1/2" spacing, but could be modified as needed. Curre
 [Based on the example template from Mercs Template/Tutorial page.](https://mandalorianmercs.org/get-involved/costume-templates/)
 
 # License
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg

@@ -18,9 +18,14 @@ Model is based off of [April Storm's v4 Custom Death Watch Gauntlet](https://www
 # Arduino Code
 This is based off of Fi-8015's [electriFi tutorial: build your own OLED display](https://mandalorianmercs.org/forum/index.php?topic=187680.0), and the related tutorial code may be found there. My addition is a really basic LED pattern generator for the acryllic panel with 8 5mm LEDs underneath.
 ## License
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+The .ino code is provided under the MIT license, available in the root of this repository.
 
 # Fusion 360 Models
 These are for the mounts that I use to house the 5mm LEDs which blink in a pattern. 
-## License
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+## Models License
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
