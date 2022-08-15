@@ -17,4 +17,10 @@
 - Left and right rockers are unused
 
 # Model
-Model is based off of April Storm's v4 Custom Gauntlet. You'd need to ask her if you wanted the model.
+Model is based off of [April Storm's v4 Custom Death Watch Gauntlet](https://www.etsy.com/listing/602469685/death-watch-bo-katan-pre-vizla-and). You'd need to ask her if you wanted my modified version of the model.
+
+# Arduino Code
+This is a more or less custom interface for my left gauntlet that uses button inputs and the like to modify what's on screen.
+
+## License
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]

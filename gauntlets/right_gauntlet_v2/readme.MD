@@ -13,4 +13,14 @@ nte-electronics-illuminated-rocker-round-hole-spst-switch-red-led
 - Acryllic panel hides LEDs
 
 # Model
-Model is based off of April Storm's v4 Custom Death Watch Gauntlet, available on Etsy. You'd need to ask her if I'm able to share my model based on it.
+Model is based off of [April Storm's v4 Custom Death Watch Gauntlet](https://www.etsy.com/listing/602469685/death-watch-bo-katan-pre-vizla-and). You'd need to ask her if you wanted my modified version of the model.
+
+# Arduino Code
+This is based off of Fi-8015's [electriFi tutorial: build your own OLED display](https://mandalorianmercs.org/forum/index.php?topic=187680.0), and the related tutorial code may be found there. My addition is a really basic LED pattern generator for the acryllic panel with 8 5mm LEDs underneath.
+## License
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+# Fusion 360 Models
+These are for the mounts that I use to house the 5mm LEDs which blink in a pattern. 
+## License
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
