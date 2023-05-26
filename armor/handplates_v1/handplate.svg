@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1161.62 581.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+        stroke-width: 1px;
+      }
+
+      .cls-3 {
+        fill: #890f55;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 0 0 11.85 11.85;
+      }
+
+      .cls-5 {
+        fill: #401458;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x=".5" y="13.51" width="0" height="4.55"/>
+  <polygon class="cls-5" points="904.23 .5 869.37 38.98 904.23 166.54 989.29 166.54 989.29 .5 904.23 .5"/>
+  <polygon class="cls-5" points="1076.72 .5 1111.57 38.98 1076.72 166.54 991.65 166.54 991.65 .5 1076.72 .5"/>
+  <g>
+    <line class="cls-2" x1="904.23" y1=".5" x2="904.23" y2="6.5"/>
+    <line class="cls-4" x1="904.23" y1="18.35" x2="904.23" y2="154.61"/>
+    <line class="cls-2" x1="904.23" y1="160.54" x2="904.23" y2="166.54"/>
+  </g>
+  <g>
+    <line class="cls-2" x1="1076.38" y1=".5" x2="1076.38" y2="6.5"/>
+    <line class="cls-4" x1="1076.38" y1="18.35" x2="1076.38" y2="154.61"/>
+    <line class="cls-2" x1="1076.38" y1="160.54" x2="1076.38" y2="166.54"/>
+  </g>
+  <rect class="cls-3" x="912.58" y=".5" width="155.44" height="166.04"/>
+  <polygon class="cls-1" points="990.67 32.18 913.32 166.15 1068.03 166.15 990.67 32.18"/>
+  <polygon class="cls-5" points="905.41 213.85 870.56 252.32 905.41 379.88 990.47 379.88 990.47 213.85 905.41 213.85"/>
+  <polygon class="cls-5" points="1077.9 213.85 1112.75 252.32 1077.9 379.88 992.84 379.88 992.84 213.85 1077.9 213.85"/>
+  <g>
+    <line class="cls-2" x1="905.41" y1="213.85" x2="905.41" y2="219.85"/>
+    <line class="cls-4" x1="905.41" y1="231.69" x2="905.41" y2="367.96"/>
+    <line class="cls-2" x1="905.41" y1="373.88" x2="905.41" y2="379.88"/>
+  </g>
+  <g>
+    <line class="cls-2" x1="1077.56" y1="213.85" x2="1077.56" y2="219.85"/>
+    <line class="cls-4" x1="1077.56" y1="231.69" x2="1077.56" y2="367.96"/>
+    <line class="cls-2" x1="1077.56" y1="373.88" x2="1077.56" y2="379.88"/>
+  </g>
+  <rect class="cls-3" x="1005.68" y="415.29" width="155.44" height="166.04"/>
+  <polygon class="cls-1" points="822.58 307.11 745.23 441.09 899.93 441.09 822.58 307.11"/>
+</svg>
